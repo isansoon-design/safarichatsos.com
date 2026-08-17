@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><style>
+@font-face {
+  font-family: "Optimistic";
+  font-style: normal;
+  font-weight: 400 600;
+  font-display: swap;
+  src: url("/fonts/OptimisticAI_VF_Optimized.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Optimistic Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/OptimisticMono_W_TextRegular.woff2") format("woff2");
+}
+:where(html) {
+  font-family: "Optimistic", system-ui, sans-serif;
+}
+:where(code, pre, kbd, samp) {
+  font-family: "Optimistic Mono", ui-monospace, monospace;
+}
+</style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SafariChat SOS - Business Secure Chat</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Inter:wght@400;600;800&display=swap');
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#D8EFE3;font-family:Inter,sans-serif;color:#0F4D3A}
+.hero{background:#0F4D3A;color:#D8EFE3;padding:60px 20px;text-align:center}
+.hero h1{font-family:'Instrument Serif',serif;font-size:64px;line-height:0.9;letter-spacing:-2px}
+.hero h1 span{color:#E8FF5A}
+.hero p{margin:20px auto;max-width:600px;opacity:0.8;font-size:18px}
+.btn{background:#E8FF5A;color:#0F4D3A;padding:16px 32px;border-radius:100px;font-weight:800;text-decoration:none;display:inline-block;margin:10px}
+.section{max-width:1100px;margin:60px auto;padding:0 20px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}
+.card{background:white;border-radius:24px;padding:32px;border:2px solid #0F4D3A}
+.card h3{font-size:24px;margin-bottom:10px}
+.price{font-size:48px;font-weight:800}
+.badge{background:#0F4D3A;color:white;padding:4px 12px;border-radius:100px;font-size:12px}
+</style>
+</head>
+<body>
+<div class="hero">
+<h1>NO NAME<br>NO PHONE<br><span>NO EMAIL</span><br>YOU KEEP ALL</h1>
+<p>SafariChat SOS - The secure business chat for companies in UK, USA, Lebanon & Syria. No per-minute fees. Flat subscription.</p>
+<a href="#pricing" class="btn">View Business Plans →</a>
+<p style="margin-top:20px;font-size:14px">🌐 safarichatsos.com • SSL Secured • Open Source</p>
+</div>
+
+<div class="section">
+<h2 style="font-family:'Instrument Serif';font-size:42px;margin-bottom:20px">Why not per-minute?</h2>
+<p style="font-size:18px;line-height:1.6">Twilio charges $0.136/min to Lebanon and $0.256/min to Syria. Vodafone wholesale is cheaper. You cannot win selling minutes. SafariChat sells privacy, not minutes. All calls inside app are internet WebRTC = $0 cost.</p>
+</div>
+
+<div class="section" id="pricing">
+<h2 style="font-family:'Instrument Serif';font-size:42px;margin-bottom:20px">Business Plans - Flat, No Minutes</h2>
+<div class="cards">
+<div class="card"><span class="badge">STARTER</span><h3>Small Team</h3><div class="price">$99<span style="font-size:16px">/mo</span></div><p>Up to 10 users<br>Unlimited secure chats<br>No per-minute fees<br>Email invite codes</p><br><a href="mailto:hello@safarichatsos.com" class="btn">Get Started</a></div>
+<div class="card" style="border-width:4px"><span class="badge">MOST POPULAR</span><h3>Business</h3><div class="price">$299<span style="font-size:16px">/mo</span></div><p>Up to 100 users<br>Admin panel ON/OFF<br>Priority support<br>Custom branding</p><br><a href="mailto:hello@safarichatsos.com" class="btn">Get Started</a></div>
+<div class="card"><span class="badge">ENTERPRISE</span><h3>Unlimited</h3><div class="price">$999<span style="font-size:16px">/mo</span></div><p>Unlimited users<br>Self-host option<br>Open source<br>24/7 SLA</p><br><a href="mailto:hello@safarichatsos.com" class="btn">Contact Sales</a></div>
+</div>
+</div>
+
+<div class="section" style="text-align:center;padding:40px;background:#0F4D3A;color:#D8EFE3;border-radius:24px">
+<h2>Ready to deploy?</h2><p>This page costs $0 to run. No Twilio. No Vodafone.</p><p>Contact: hello@safarichatsos.com</p>
+</div>
+
+<script>(function(){var loc=location.href.replace(/#.*$/,"");var ATTR_NAMES=["data-product-id","data-productid","data-product_id","product-id","productid","product_id","data-source-entity-id","source-entity-id","source_entity_id","data-product","data-metadata","data-meta"];var DATASET_KEYS=["productId","productid","product_id","sourceEntityId","sourceentityid","source_entity_id","product","metadata","meta"];function readProductId(value){if(typeof value!=="string"||value.length===0)return null;if(/^[0-9]{6,}$/.test(value))return value;var match=value.match(/(?:product(?:_|-)?id|source(?:_|-)?entity(?:_|-)?id)["'=:\s]+([0-9]{6,})/i);return match?match[1]:null}function extractProductId(start){for(var node=start;node&&node!==document.body;node=node.parentElement){for(var i=0;i<ATTR_NAMES.length;i++){var attrValue=node.getAttribute&&node.getAttribute(ATTR_NAMES[i]);var attrProductId=readProductId(attrValue);if(attrProductId)return attrProductId}var dataset=node.dataset||null;if(dataset){for(var j=0;j<DATASET_KEYS.length;j++){var dataValue=dataset[DATASET_KEYS[j]];var dataProductId=readProductId(dataValue);if(dataProductId)return dataProductId}}}return null}function isInlineMediaSlotElement(node){return !!(node&&node.getAttribute&&node.getAttribute("data-clippy-inline-media-slot")!==null)}function findInlineMediaSlot(start){for(var node=start;node&&node!==document.body;node=node.parentElement){if(isInlineMediaSlotElement(node))return node}return null}function readInlineMediaUrl(node){if(!node)return null;return node.getAttribute&&((node.getAttribute("data-clippy-inline-media-url")||node.getAttribute("data-url")||node.getAttribute("data_url")))||node.href||null}function stripHash(url){return String(url).replace(/#.*$/,"")}function urlsMatch(a,b){if(!a||!b)return false;try{return stripHash(new URL(a,loc).href)===stripHash(new URL(b,loc).href)}catch(_){return stripHash(a)===stripHash(b)}}function isFirstPartyReelUrl(value){try{var url=new URL(value,loc);if(url.protocol!=="https:")return false;var host=url.hostname.toLowerCase();var supported=host==="instagram.com"||host.endsWith(".instagram.com")||host==="facebook.com"||host.endsWith(".facebook.com");return supported&&/\/reels?\//i.test(url.pathname)}catch(_){return false}}function isInlineMediaUrlClick(node,href){var slot=findInlineMediaSlot(node);if(!slot)return false;var slotUrl=readInlineMediaUrl(slot);if(slotUrl)return urlsMatch(href,slotUrl);return isFirstPartyReelUrl(href)}function findDataHref(start){for(var node=start;node&&node!==document.body;node=node.parentElement){if(node.getAttribute){var href=node.getAttribute("data-href")||node.getAttribute("data-url");if(href)return{href:href,node:node}}}return null}var nativeOpen=window.open;window.open=function(url){if(parent!==window&&typeof url==="string"&&/^https?:\/\//.test(url)){parent.postMessage({type:"ecto:usercontent-link-click",href:url},"*");return null}return nativeOpen?nativeOpen.apply(window,arguments):null};document.addEventListener("click",function(e){var target=e.target instanceof Element?e.target:null;if(!target)return;if(parent===window)return;var a=target.closest?target.closest("a[href]"):null;if(a&&a.href&&/^https?:\/\//.test(a.href)&&a.href.replace(/#.*$/,"")!==loc){if(isInlineMediaUrlClick(a,a.href))return;var productId=extractProductId(target)||extractProductId(a);if(productId){e.preventDefault();parent.postMessage({type:"ecto-artifact-link-click",productId:productId},"*");return}e.preventDefault();parent.postMessage({type:"ecto:usercontent-link-click",href:a.href},"*");return}var dataHref=findDataHref(target);if(dataHref&&/^https?:\/\//.test(dataHref.href)&&dataHref.href.replace(/#.*$/,"")!==loc){if(isInlineMediaUrlClick(dataHref.node,dataHref.href))return;e.preventDefault();parent.postMessage({type:"ecto:usercontent-link-click",href:dataHref.href},"*")}},true)})();</script><script>(function(){var FOCUS_TYPE="ecto:artifact-focus-request";var CLOSE_TYPE="ecto:artifact-close-request";function focusArtifactDocument(){var body=document.body;if(!body)return;try{window.focus();}catch(e){}if(!body.hasAttribute("tabindex"))body.setAttribute("tabindex","-1");try{body.focus({preventScroll:true});}catch(e){try{body.focus();}catch(e2){}}}window.addEventListener("message",function(event){if(event.source!==window.parent)return;var data=event.data;if(!data||typeof data!=="object"||data.type!==FOCUS_TYPE)return;if(document.readyState==="loading"){document.addEventListener("DOMContentLoaded",focusArtifactDocument,{once:true});return;}focusArtifactDocument();});window.addEventListener("keydown",function(event){if(event.key!=="Escape")return;window.setTimeout(function(){if(event.defaultPrevented)return;window.parent.postMessage({type:CLOSE_TYPE},"*");},0);});})();</script></body>
+</html>
